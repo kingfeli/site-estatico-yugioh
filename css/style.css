@@ -1,0 +1,231 @@
+body{
+    background-color: black;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/* trabalhando no cabeçalho da pagina */
+@font-face {
+    font-family: squealer2;
+    src: url("../font/squealer-embossed.ttf");
+}
+.cabeçalho{
+    text-align: center;
+    background-color: rgb(255, 255, 17);  
+}
+.textcabeçalho{
+    color:rgb(5, 4, 4);
+    font-family: squealer2;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.opçoescabeçalho{
+     background-color: rgb(255, 255, 87);
+     border-top: 1px solid blue;
+     padding-bottom: 10px;
+}
+.navegaçao{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    margin-top:10px; 
+}
+@font-face{
+    font-family: squeler;
+    src:url("../font/squealer.ttf" );
+}
+li{
+    float:left;
+    margin-left: 100px;
+    font-size: 40px; 
+    font-family: squeler;
+    padding: 10px;
+}
+.linksdecabeçalho{
+    border-radius: 40px; 
+    padding:20px;
+    text-decoration: none;
+    color:rgb(226, 8, 154);
+}
+.linksdecabeçalho:hover{
+    background-color: blue;
+    color:white; 
+}
+/* configuraçoes do textointrodutorio */
+.conteudo1{
+    margin-top: 10px;
+}
+.text1{
+    
+    color:rgb(105, 158, 149);
+    max-width: 900px;
+    border:2px solid white;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-size:20px;
+    font-weight: bolder;
+}
+/* configuranto o texto e a imagem do protagonista */
+#textprotago{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#imgprotago{
+    position:relative;
+    left: 390px;
+    width:900px;
+    border:5px solid red;
+    padding: 2px;
+}
+/* configurando as imagens do lado do protagonista */
+#magolado{
+    position:absolute;
+    width:100px;
+    bottom: 300px;
+    left:200px;
+}
+#dragaolado{
+    position: absolute;
+    width:250px;
+    left: 1380px;
+    bottom: 300px;
+}
+.cardfundo1, .cardfundo2, .cardfundo3, .cardfundo4{
+    width: 160px;
+    position: absolute;
+}
+.cardfundo1{
+    top: 550px;
+    left:120px;
+}
+.cardfundo2{
+    top: 830px;
+    left:120px;
+}
+.cardfundo3{
+    left: 1400px;
+    top:550px;
+}
+.cardfundo4{
+    left: 1400px;
+    top:830px;
+}
+/* configuraçoes das cartas raras */
+.conteudo2{
+    background-image: url("../background-fundo/fundo-cartas2.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
+    border-top: 5px solid red;  
+}
+.tituloconteudo2{
+    text-align: center;
+    color:red;
+    font-family:squealer;
+    font-size: 100px;
+    margin-top: 40px;
+}
+.card1{
+    color:white;
+    text-align:center;   
+}
+.card1 h2{
+    font-size: 30px;
+    margin:30px;
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card1 img{
+    width:600px;  
+}
+.card1 h3{
+    margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.card2, .card3, .card4, .card5{
+    color:white;
+    float:left;
+    text-align: center;
+    margin-left: 50px; 
+}
+.card2 img, .card3 img, .card4 img, .card5 img{
+    width: 350px;
+    height: 500px;
+}
+.card2 h1, .card3 h1, .card4 h1, .card5 h1{
+    margin:30px;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(90, 2, 253,0.9);
+    font-weight: bolder;
+}
+.card2 h3, .card3 h3, .card4 h3, .card5 h3{
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+/* Configuraçoes do Formulario */
+.formulario{
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    padding: 20px;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    margin:40px;
+    margin-left: 720px;  
+}
+.formulario h2{
+    margin:20px;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+input, select{
+    width: 100%;
+    border:none;
+    margin-bottom:10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+::placeholder{
+    color:black;
+}
+footer{
+    padding-bottom: 200px;
+    background-color: rgb(20, 19, 19);
+    /* background-repeat: no-repeat; */
+    background-position: center;    
+}
+.logorodape{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.textrodape{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-align:center;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+.rodapelogo{
+    text-align: center;
+    position: relative;
+    top:30px;
+    
+}
+
