@@ -17,7 +17,7 @@ body{
 .textcabeçalho{
     color:rgb(5, 4, 4);
     font-family: squealer2;
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 .opçoescabeçalho{
@@ -80,8 +80,8 @@ li{
 }
 #imgprotago{
     position:relative;
-    left: 390px;
-    width:900px;
+    left: 370px;
+    width:600px;
     border:5px solid red;
     padding: 2px;
 }
@@ -89,34 +89,34 @@ li{
 #magolado{
     position:absolute;
     width:100px;
-    bottom: 300px;
-    left:200px;
+    bottom: 180px;
+    left: 80px;
 }
 #dragaolado{
     position: absolute;
-    width:250px;
-    left: 1380px;
-    bottom: 300px;
+    width:230px;
+    left: 1150px;
+    bottom: 180px;
 }
 .cardfundo1, .cardfundo2, .cardfundo3, .cardfundo4{
-    width: 160px;
+    width: 120px;
     position: absolute;
 }
 .cardfundo1{
-    top: 550px;
+    top: 520px;
     left:120px;
 }
 .cardfundo2{
-    top: 830px;
+    top: 700px;
     left:120px;
 }
 .cardfundo3{
-    left: 1400px;
-    top:550px;
+    left: 1100px;
+    top:520px;
 }
 .cardfundo4{
-    left: 1400px;
-    top:830px;
+    left: 1100px;
+    top:700px;
 }
 /* configuraçoes das cartas raras */
 #conteudo2{
@@ -163,8 +163,8 @@ li{
     
 }
 .card2 img, .card3 img, .card4 img, .card5 img{
-    width: 350px;
-    height: 500px;
+    width: 250px;
+    height: 400px;
 }
 .card2 h1, .card3 h1, .card4 h1, .card5 h1{
     margin:30px;
@@ -189,7 +189,7 @@ li{
     border: 3px solid yellow;
     border-radius: 20px;
     margin:40px;
-    margin-left: 720px;  
+    margin-left: 500px;  
 }
 .formulario h2{
     margin:20px;
