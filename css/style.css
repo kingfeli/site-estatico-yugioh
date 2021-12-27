@@ -125,6 +125,7 @@ li{
     background-position: center;
     overflow: hidden;
     border-top: 5px solid red;  
+    background-attachment: fixed;
 }
 .tituloconteudo2{
     text-align: center;
